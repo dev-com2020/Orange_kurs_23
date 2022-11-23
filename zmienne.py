@@ -21,3 +21,4 @@ imie5 = imie3 + imie4
 print((imie5 + " ") * 4)
 print(imie.count("me"))
 print(3 + 4 - 5 * 6.4 / 3 ** 2)
+print("Tutaj coś ciekawego...")
