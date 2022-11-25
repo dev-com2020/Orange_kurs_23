@@ -1,5 +1,5 @@
 import os
-for root, dirs, files in os.walk('.'):
+for root, dirs, files in os.walk('..'):
     abs_root = os.path.abspath(root)
     print(abs_root)
     if dirs:

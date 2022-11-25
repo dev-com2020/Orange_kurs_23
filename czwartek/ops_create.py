@@ -2,7 +2,7 @@
 import shutil
 from pathlib import Path
 
-base_path = Path('ops_example')
+base_path = Path('../ops_example')
 # let's perform an initial cleanup just in case
 if base_path.exists() and base_path.is_dir():
     shutil.rmtree(base_path)
